@@ -1,20 +1,21 @@
 /** global element styling **/
 
-body{
+body {
     font-family: "Lato", sans-serif;
-    background-color:#eeee;
-}
-
-.main{
+    background-color: #eeeeee;
+  }
+  
+  .main {
     display: flex;
     flex-direction: column;
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
-}
-
-#header{
+  }
+  
+  /* ======== Header ========*/
+  #header {
     display: flex;
     max-width: 100%;
     flex-direction: column;
@@ -25,38 +26,39 @@ body{
     right: 0;
     top: 0;
     background-color: #eeeeee;
-}
-
-.logo{
+  }
+  
+  .logo {
     display: flex;
-}
-
-.logo_icon{
+  }
+  
+  .logo img {
     width: 100%;
-}
-
-#nav-bar{
+    border-radius: 50%;
+  }
+  
+  #nav-bar {
     display: flex;
     flex-grow: 1;
     min-height: 80px;
     align-items: center;
-}
-
-#nav-bar ul{
+  }
+  
+  #nav-bar ul {
     text-align: center;
     padding: 0;
-}
-
-#nav-bar ul li{
+  }
+  
+  #nav-bar ul li {
     display: block;
     margin-bottom: 20px;
-}
-
-#nav-bar ul li a{
+  }
+  
+  #nav-bar ul li a {
     color: #000000;
     font-size: 20px;
     text-decoration: none;
-
-}
+  }
+  
 
 
