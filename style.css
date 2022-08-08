@@ -1,4 +1,17 @@
 /** global element styling **/
 
+body{
+    font-family: "Lato", sans-serif;
+    background-color:#eeee;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 1289px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
 
 
