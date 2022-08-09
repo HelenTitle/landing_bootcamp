@@ -261,12 +261,12 @@
   .product > button {
     border: 0;
     margin: 15px 0;
-    background-color: #f1c40f;
+    background-color: pink;
     font-weight: 400;
   }
   
   .product > button:hover {
-    background-color: orange;
+    background-color: pink;
     transition: background-color 1s;
   }
   
@@ -282,3 +282,25 @@
     }
   }
   
+  footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
